@@ -1,0 +1,60 @@
+# Python (FastAPI)
+*.pyc
+*.pyo
+__pycache__
+*.pyd
+*.db
+*.sqlite3
+*.log
+env/
+venv/
+.env
+.venv/
+instance/
+.webassets-cache
+*.egg-info
+dist/
+build/
+*.bak
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# FastAPI specific directories or files
+*.coverage
+.coverage.*
+.tox/
+.nox/
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.hypothesis/
+
+# Next.js (React)
+# Dependency directories
+node_modules/
+
+# Build output
+.next/
+out/
+
+# TypeScript build artifacts
+*.tsbuildinfo
+
+# Log files
+*.log
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Next.js config files (optional, if you don't want to track local configurations)
+next-env.d.ts
+next.config.js

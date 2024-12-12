@@ -1,0 +1,75 @@
+{
+  "X": [
+    {
+      "username": "mahid",
+      "email": "mahidshamshad@gmail.com",
+      "plan": "core",
+      "roles": ["user", "admin", "developer", "verified", "mentor"],
+      "vms": [
+        {
+          "id": "1aa62e52-e61c-4ae3-9ac2-c9cb1f46d25f",
+          "vmlabel": "NewVM",
+          "region": "AU",
+          "os": {
+            "distribution": "ubuntu",
+            "version": "22.04",
+            "desktop": "kde"
+          },
+          "specs": {
+            "cpu": 2,
+            "ram": 1,
+            "storage": 5
+          },
+          "enabled": false
+        }
+      ],
+      "reports": [],
+      "swiftai": 69,
+      "notifications": {
+        "total": 2,
+        "unread": [],
+        "read": [
+          {
+            "from": "system",
+            "message": "Welcome to Swiftor! We're glad to have you here.",
+            "time": 1730061414000,
+            "id": "0"
+          },
+          {
+            "from": "system",
+            "message": "Your abuse report for payload 4 has been submitted and will be reviewed shortly.",
+            "time": 1731498110451,
+            "id": "1"
+          },
+          {
+            "from": "system",
+            "message": "Your account has been successfully upgraded to Hacker plan!",
+            "time": 1731688620128,
+            "id": "2"
+          }
+        ]
+      },
+      "secrets": {
+        "1062a97f-26fc-4b5e-bbe0-1c10b66f36a2": {},
+        "demo": {}
+      },
+      "networking": {
+        "1062a97f-26fc-4b5e-bbe0-1c10b66f36a2": {},
+        "4d633b11-c9c0-4601-bda4-7458b411daa5": {}
+      },
+      "payloads": [
+        {
+          "id": "1",
+          "installations": 3,
+          "vms": ["demo"]
+        }
+      ]
+    }
+  ],
+  "networks": [
+    {
+      "name": "21f2a0cc-2775-4a00-9991-ff834edf5a38_default",
+      "subnet": "10.0.0.0/29"
+    }
+  ]
+}
